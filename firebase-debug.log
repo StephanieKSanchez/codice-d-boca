@@ -1,0 +1,62 @@
+[debug] [2022-05-12T02:02:39.659Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T02:02:39.660Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2022-05-12T02:02:39.660Z] CLI Version:   10.8.0
+[debug] [2022-05-12T02:02:39.660Z] Platform:      darwin
+[debug] [2022-05-12T02:02:39.660Z] Node Version:  v17.7.0
+[debug] [2022-05-12T02:02:39.661Z] Time:          Wed May 11 2022 22:02:39 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-05-12T02:02:39.662Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T02:02:39.664Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-12T02:02:39.664Z] > authorizing via signed-in user (stephk006@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/stephaniesanchez/code/codice-d-boca
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-12T02:02:44.970Z] > refreshing access token with scopes: []
+[debug] [2022-05-12T02:02:44.971Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-12T02:03:26.552Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T02:03:26.552Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2022-05-12T02:03:26.553Z] CLI Version:   10.8.0
+[debug] [2022-05-12T02:03:26.553Z] Platform:      darwin
+[debug] [2022-05-12T02:03:26.553Z] Node Version:  v17.7.0
+[debug] [2022-05-12T02:03:26.554Z] Time:          Wed May 11 2022 22:03:26 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-05-12T02:03:26.554Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T02:03:26.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-12T02:03:26.557Z] > authorizing via signed-in user (stephk006@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/stephaniesanchez/code/codice-d-boca
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-12T02:04:28.201Z] > refreshing access token with scopes: []
+[debug] [2022-05-12T02:04:28.203Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

@@ -1,0 +1,104 @@
+/* normalize css */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+    /* background: url(https://grillatqc.com/wp-content/uploads/2016/06/menu-background.jpg) no-repeat fixed center; */
+    background-image: url(https://grillatqc.com/wp-content/uploads/2016/06/menu-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    height: 30px;
+    background-color: rgb(118 152 78 /77%);
+}
+
+nav > ul > li {
+    margin: 0 1rem;
+    list-style-type: none;
+}
+
+body > p {
+    font-style: oblique;
+    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    color: crimson;
+    text-align: center;
+    
+    animation-duration: 6s;
+    animation-name: slidein;
+      }
+      
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        } 
+      }
+
+
+main {
+    max-width: 1024px;
+    margin:  5rem auto;
+    border: solid orange 5px;
+    border-radius: 15px 50px;
+}
+
+header {
+    font-family: 'Macondo', cursive;
+    border-radius: 10px 45px 0 0;
+    background-image: url(https://codice-boca.web.app/700x700.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > header > h1 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.menu-items {
+    /*display: flex;*/
+    margin: 5rem 4rem;
+    column-count: 2;
+    column-gap: 5px;
+    page-break-inside: avoid;
+
+}
+
+.menu-item {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 45px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(118 152 78 /47%)
+}
